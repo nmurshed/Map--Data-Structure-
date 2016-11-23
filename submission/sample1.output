@@ -1,0 +1,81 @@
+sample1.c:57:9: warning: implicitly declaring library function 'printf' with type 'int (const char *, ...)' [-Wimplicit-function-declaration]
+        printf("Testcase - Random POI name as departure point\n");
+        ^
+sample1.c:57:9: note: include the header <stdio.h> or explicitly provide a declaration for 'printf'
+1 warning generated.
+Edge from SLC to Dana already exist
+Adding Edge SLC from Dana failed
+Edgename (DC-RR) not found
+Edgename (DC-MC) not found
+Edgename (DC-RR) not found
+Road Ring Road for DC-RR failed
+Vertex1 or Vertex2 Invalid
+Vertex1 or Vertex2 Invalid
+EDGE NAME TYPE -> EDGE_NAME,ROAD_NAME,DISTANCE,SPEED,EVENT 
+  0 DavisCentre   0
+		->DavisCentre-RR, DavisCentre-RR, 0, 7.00 KM, 10.00 KM/hr
+		->DavisCentre-MC, DavisCentre-MC, 0, 6.00 KM, 30.00 KM/hr
+  1    MC   0
+		->MC-RR, MC-RR, 0, 5.00 KM, 10.00 KM/hr
+		->MC-SLC, MC-SLC, 0, 4.00 KM, 30.00 KM/hr
+		->MC-EIT, MC-EIT, 0, 5.00 KM, 20.00 KM/hr
+  2   EIT   0
+		->EIT-SLC, EIT-SLC, 0, 2.00 KM, 15.00 KM/hr
+		->EIT-MC, EIT-MC, 0, 5.00 KM, 20.00 KM/hr
+  3   SLC   1
+		->SLC-Dana, SLC-Dana, 0, 2.00 KM, 40.00 KM/hr
+		->SLC-RR, SLC-RR, 0, 3.00 KM, 10.00 KM/hr
+  4    RR   1
+		->RR-Dana, RR-Dana, 0, 5.00 KM, 30.00 KM/hr
+		->RR-SLC, RR-SLC, 0, 3.00 KM, 10.00 KM/hr
+		->RR-DavisCentre, RR-DavisCentre, 0, 7.00 KM, 10.00 KM/hr
+  5  Dana   0
+		->Dana-SLC, Dana-SLC, 0, 2.00 KM, 40.00 KM/hr
+		->Dana-RR, Dana-RR, 0, 5.00 KM, 30.00 KM/hr
+EDGE NAME TYPE -> EDGE_NAME,ROAD_NAME,DISTANCE,SPEED,EVENT 
+  0 DavisCentre   0
+		->DavisCentre-RR, DavisCentre-RR, 0, 7.00 KM, 10.00 KM/hr
+		->DavisCentre-MC, DavisCentre-MC, 0, 6.00 KM, 30.00 KM/hr
+  1    MC   0
+		->MC-RR, MC-RR, 2, 5.00 KM, 10.00 KM/hr
+		->MC-SLC, MC-SLC, 0, 4.00 KM, 30.00 KM/hr
+		->MC-EIT, MC-EIT, 0, 5.00 KM, 20.00 KM/hr
+  2   EIT   0
+		->EIT-SLC, EIT-SLC, 0, 2.00 KM, 15.00 KM/hr
+		->EIT-MC, EIT-MC, 0, 5.00 KM, 20.00 KM/hr
+  3   SLC   1
+		->SLC-Dana, SLC-Dana, 0, 2.00 KM, 40.00 KM/hr
+		->SLC-RR, SLC-RR, 0, 3.00 KM, 10.00 KM/hr
+  4    RR   1
+		->RR-Dana, Ring Road, 0, 5.00 KM, 30.00 KM/hr
+		->RR-SLC, RR-SLC, 0, 3.00 KM, 10.00 KM/hr
+		->RR-DavisCentre, RR-DavisCentre, 0, 7.00 KM, 10.00 KM/hr
+  5  Dana   0
+		->Dana-SLC, Dana-SLC, 0, 2.00 KM, 40.00 KM/hr
+		->Dana-RR, Dana-RR, 0, 5.00 KM, 30.00 KM/hr
+
+---------------------------------------------------
+Shortest Path from DavisCentre to SLC
+Travel Vertex: DavisCentre : MC : SLC 
+Take road "DavisCentre-MC" MAX SPEED: 30.00 and in 6.00 KM
+Take road "MC-SLC" MAX SPEED: 30.00 and in 4.00 KM destination reached
+Total Time: 0.33 Hr
+---------------------------------------------------
+Testcase - Random POI name as departure point
+Vertex 123 not found
+Testcase - Same POI names as input
+You are already at DavisCentre
+Testcase - Random POI names as destination point
+Vertex ABC not found
+Testcase - Find the path with POI name having different cases than original
+
+---------------------------------------------------
+Shortest Path from DavisCentre to SLC
+Travel Vertex: DavisCentre : MC : SLC 
+Take road "DavisCentre-MC" MAX SPEED: 30.00 and in 6.00 KM
+Take road "MC-SLC" MAX SPEED: 30.00 and in 4.00 KM destination reached
+Total Time: 0.33 Hr
+---------------------------------------------------
+Testcase - Looking for an unknown vertex
+Vertex AJ not found
+Vertex Info (null)

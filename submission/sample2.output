@@ -1,0 +1,204 @@
+Speed can't be negative or zero
+EDGE NAME TYPE -> EDGE_NAME,ROAD_NAME,DISTANCE,SPEED,EVENT 
+  0 Downsview   0
+		->Downsview-Wilson, Downsview-Wilson, 0, 6.00 KM, 30.00 KM/hr
+  1 Yorkdale   0
+		->Yorkdale-Wilson, Yorkdale-Wilson, 0, 10.00 KM, 30.00 KM/hr
+  2 Glencairn   0
+		->Glencairn-Eglinton West, Glencairn-Eglinton West, 0, 20.00 KM, 30.00 KM/hr
+		->Glencairn-Lawrence West, Glencairn-Lawrence West, 0, 11.00 KM, 30.00 KM/hr
+  3 Wilson   0
+		->Wilson-Yorkdale, Wilson-Yorkdale, 0, 10.00 KM, 30.00 KM/hr
+		->Wilson-Downsview, Wilson-Downsview, 0, 6.00 KM, 30.00 KM/hr
+  4 Lawrence West   0
+		->Lawrence West-Glencairn, Lawrence West-Glencairn, 0, 11.00 KM, 30.00 KM/hr
+  5 Eglinton West   0
+		->Eglinton West-St. Claire West, Eglinton West-St. Claire West, 0, 1.00 KM, 30.00 KM/hr
+		->Eglinton West-Glencairn, Eglinton West-Glencairn, 0, 20.00 KM, 30.00 KM/hr
+  6 St. Claire West   0
+		->St. Claire West-Dupont, St. Claire West-Dupont, 0, 10.00 KM, 30.00 KM/hr
+		->St. Claire West-Eglinton West, St. Claire West-Eglinton West, 0, 1.00 KM, 30.00 KM/hr
+  7 Dupont   0
+		->Dupont-St. Claire, Dupont-St. Claire, 0, 6.00 KM, 30.00 KM/hr
+		->Dupont-Spadina, Dupont-Spadina, 0, 20.00 KM, 30.00 KM/hr
+		->Dupont-St. Claire West, Dupont-St. Claire West, 0, 10.00 KM, 30.00 KM/hr
+  8 Spadina   0
+		->Spadina-St. George, Spadina-St. George, 0, 7.00 KM, 30.00 KM/hr
+		->Spadina-Dupont, Spadina-Dupont, 0, 20.00 KM, 30.00 KM/hr
+  9 Museum   0
+		->Museum-Queen's Park, Museum-Queen's Park, 0, 2.00 KM, 30.00 KM/hr
+		->Museum-St. George, Museum-St. George, 0, 9.00 KM, 30.00 KM/hr
+ 10 Queen's Park   0
+		->Queen's Park-St. Patrick, Queen's Park-St. Patrick, 0, 3.00 KM, 30.00 KM/hr
+		->Queen's Park-Museum, Queen's Park-Museum, 0, 2.00 KM, 30.00 KM/hr
+ 11 St. Patrick   0
+		->St. Patrick-Osgoode, St. Patrick-Osgoode, 0, 4.00 KM, 30.00 KM/hr
+		->St. Patrick-Queen's Park, St. Patrick-Queen's Park, 0, 3.00 KM, 30.00 KM/hr
+ 12 Osgoode   0
+		->Osgoode-St. Andrew, Osgoode-St. Andrew, 0, 5.00 KM, 30.00 KM/hr
+		->Osgoode-St. Patrick, Osgoode-St. Patrick, 0, 4.00 KM, 30.00 KM/hr
+ 13 St. Andrew   0
+		->St. Andrew-Union, St. Andrew-Union, 0, 9.00 KM, 30.00 KM/hr
+		->St. Andrew-Osgoode, St. Andrew-Osgoode, 0, 5.00 KM, 30.00 KM/hr
+ 14 Union   0
+		->Union-King, Union-King, 0, 1.00 KM, 30.00 KM/hr
+		->Union-St. Andrew, Union-St. Andrew, 0, 9.00 KM, 30.00 KM/hr
+ 15  King   0
+		->King-Queen, King-Queen, 0, 6.00 KM, 30.00 KM/hr
+		->King-Union, King-Union, 0, 1.00 KM, 30.00 KM/hr
+ 16 Queen   0
+		->Queen-Dundas, Queen-Dundas, 0, 6.00 KM, 30.00 KM/hr
+		->Queen-King, Queen-King, 0, 6.00 KM, 30.00 KM/hr
+ 17 Dundas   0
+		->Dundas-Pape, Dundas-Pape, 0, 6.00 KM, 30.00 KM/hr
+		->Dundas-College, Dundas-College, 0, 6.00 KM, 30.00 KM/hr
+		->Dundas-Queen, Dundas-Queen, 0, 6.00 KM, 30.00 KM/hr
+ 18 College   0
+		->College-Wellesley, College-Wellesley, 0, 6.00 KM, 30.00 KM/hr
+		->College-Dundas, College-Dundas, 0, 6.00 KM, 30.00 KM/hr
+ 19 Wellesley   0
+		->Wellesley-Bloor Yonge, Wellesley-Bloor Yonge, 0, 6.00 KM, 30.00 KM/hr
+		->Wellesley-College, Wellesley-College, 0, 6.00 KM, 30.00 KM/hr
+ 20 Sherbourne   0
+		->Sherbourne-Castle Frank, Sherbourne-Castle Frank, 0, 6.00 KM, 30.00 KM/hr
+		->Sherbourne-Bloor Yonge, Sherbourne-Bloor Yonge, 0, 6.00 KM, 30.00 KM/hr
+ 21 Bloor Yonge   1
+		->Bloor Yonge-Sherbourne, Bloor Yonge-Sherbourne, 0, 6.00 KM, 30.00 KM/hr
+		->Bloor Yonge-Bay, Bloor Yonge-Bay, 0, 6.00 KM, 30.00 KM/hr
+		->Bloor Yonge-Rosedale, Bloor Yonge-Rosedale, 0, 6.00 KM, 30.00 KM/hr
+		->Bloor Yonge-Wellesley, Bloor Yonge-Wellesley, 0, 6.00 KM, 30.00 KM/hr
+ 22 Rosedale   0
+		->Rosedale-Summerhill, Rosedale-Summerhill, 0, 6.00 KM, 30.00 KM/hr
+		->Rosedale-Bloor Yonge, Rosedale-Bloor Yonge, 0, 6.00 KM, 30.00 KM/hr
+ 23 Summerhill   0
+		->Summerhill-St. Claire, Summerhill-St. Claire, 0, 6.00 KM, 30.00 KM/hr
+		->Summerhill-Rosedale, Summerhill-Rosedale, 0, 6.00 KM, 30.00 KM/hr
+ 24 St. Claire   0
+		->St. Claire-Dupont, St. Claire-Dupont, 0, 6.00 KM, 30.00 KM/hr
+		->St. Claire-Davisville, St. Claire-Davisville, 0, 6.00 KM, 30.00 KM/hr
+		->St. Claire-Summerhill, St. Claire-Summerhill, 0, 6.00 KM, 30.00 KM/hr
+ 25 Davisville   0
+		->Davisville-Eglinton, Davisville-Eglinton, 0, 6.00 KM, 30.00 KM/hr
+		->Davisville-St. Claire, Davisville-St. Claire, 0, 6.00 KM, 30.00 KM/hr
+ 26 Eglinton   0
+		->Eglinton-Lawrence, Eglinton-Lawrence, 0, 6.00 KM, 30.00 KM/hr
+		->Eglinton-Davisville, Eglinton-Davisville, 0, 6.00 KM, 30.00 KM/hr
+ 27 Lawrence   0
+		->Lawrence-York Mills, Lawrence-York Mills, 0, 6.00 KM, 30.00 KM/hr
+		->Lawrence-Eglinton, Lawrence-Eglinton, 0, 6.00 KM, 30.00 KM/hr
+ 28 York Mills   0
+		->York Mills-Sheppard, York Mills-Sheppard, 0, 6.00 KM, 30.00 KM/hr
+		->York Mills-Lawrence, York Mills-Lawrence, 0, 6.00 KM, 30.00 KM/hr
+ 29 Sheppard   0
+		->Sheppard-North York, Sheppard-North York, 0, 6.00 KM, 30.00 KM/hr
+		->Sheppard-York Mills, Sheppard-York Mills, 0, 6.00 KM, 30.00 KM/hr
+ 30 North York   0
+		->North York-Finch, North York-Finch, 0, 6.00 KM, 30.00 KM/hr
+		->North York-Sheppard, North York-Sheppard, 0, 6.00 KM, 30.00 KM/hr
+ 31 Finch   0
+		->Finch-North York, Finch-North York, 0, 6.00 KM, 30.00 KM/hr
+ 32 Kipling   0
+		->Kipling-Islington, Kipling-Islington, 0, 6.00 KM, 30.00 KM/hr
+ 33 Islington   0
+		->Islington-Royal York, Islington-Royal York, 0, 6.00 KM, 30.00 KM/hr
+		->Islington-Kipling, Islington-Kipling, 0, 6.00 KM, 30.00 KM/hr
+ 34 Royal York   0
+		->Royal York-Old Mill, Royal York-Old Mill, 0, 6.00 KM, 30.00 KM/hr
+		->Royal York-Islington, Royal York-Islington, 0, 6.00 KM, 30.00 KM/hr
+ 35 Old Mill   0
+		->Old Mill-Jane, Old Mill-Jane, 0, 6.00 KM, 30.00 KM/hr
+		->Old Mill-Royal York, Old Mill-Royal York, 0, 6.00 KM, 30.00 KM/hr
+ 36  Jane   0
+		->Jane-Runnymede, Jane-Runnymede, 0, 6.00 KM, 30.00 KM/hr
+		->Jane-Old Mill, Jane-Old Mill, 0, 6.00 KM, 30.00 KM/hr
+ 37 Runnymede   0
+		->Runnymede-High Park, Runnymede-High Park, 0, 6.00 KM, 30.00 KM/hr
+		->Runnymede-Jane, Runnymede-Jane, 0, 6.00 KM, 30.00 KM/hr
+ 38 High Park   0
+		->High Park-Keele, High Park-Keele, 0, 6.00 KM, 30.00 KM/hr
+		->High Park-Runnymede, High Park-Runnymede, 0, 6.00 KM, 30.00 KM/hr
+ 39 Keele   0
+		->Keele-High Park, Keele-High Park, 0, 6.00 KM, 30.00 KM/hr
+ 40 Dundas West   0
+		->Dundas West-Lansdowne, Dundas West-Lansdowne, 0, 6.00 KM, 30.00 KM/hr
+ 41 Lansdowne   0
+		->Lansdowne-Differin, Lansdowne-Differin, 0, 6.00 KM, 30.00 KM/hr
+		->Lansdowne-Dundas West, Lansdowne-Dundas West, 0, 6.00 KM, 30.00 KM/hr
+ 42 Differin   0
+		->Differin-Ossington, Differin-Ossington, 0, 6.00 KM, 30.00 KM/hr
+		->Differin-Lansdowne, Differin-Lansdowne, 0, 6.00 KM, 30.00 KM/hr
+ 43 Ossington   0
+		->Ossington-Christie, Ossington-Christie, 0, 6.00 KM, 30.00 KM/hr
+		->Ossington-Differin, Ossington-Differin, 0, 6.00 KM, 30.00 KM/hr
+ 44 Christie   0
+		->Christie-Bathurst, Christie-Bathurst, 0, 6.00 KM, 30.00 KM/hr
+		->Christie-Ossington, Christie-Ossington, 0, 6.00 KM, 30.00 KM/hr
+ 45 Bathurst   0
+		->Bathurst-St. George, Bathurst-St. George, 0, 6.00 KM, 30.00 KM/hr
+		->Bathurst-Christie, Bathurst-Christie, 0, 6.00 KM, 30.00 KM/hr
+ 46 St. George   1
+		->St. George-Bay, St. George-Bay, 0, 6.00 KM, 30.00 KM/hr
+		->St. George-Bathurst, St. George-Bathurst, 0, 6.00 KM, 30.00 KM/hr
+		->St. George-Museum, St. George-Museum, 0, 9.00 KM, 30.00 KM/hr
+		->St. George-Spadina, St. George-Spadina, 0, 7.00 KM, 30.00 KM/hr
+ 47   Bay   0
+		->Bay-Bloor Yonge, Bay-Bloor Yonge, 0, 6.00 KM, 30.00 KM/hr
+		->Bay-St. George, Bay-St. George, 0, 6.00 KM, 30.00 KM/hr
+ 48 Castle Frank   0
+		->Castle Frank-Broadsview, Castle Frank-Broadsview, 0, 6.00 KM, 30.00 KM/hr
+		->Castle Frank-Sherbourne, Castle Frank-Sherbourne, 0, 6.00 KM, 30.00 KM/hr
+ 49 Broadsview   0
+		->Broadsview-Chester, Broadsview-Chester, 0, 6.00 KM, 30.00 KM/hr
+		->Broadsview-Castle Frank, Broadsview-Castle Frank, 0, 6.00 KM, 30.00 KM/hr
+ 50 Chester   0
+		->Chester-Pape, Chester-Pape, 0, 6.00 KM, 30.00 KM/hr
+		->Chester-Broadsview, Chester-Broadsview, 0, 6.00 KM, 30.00 KM/hr
+ 51  Pape   0
+		->Pape-Dundas, Pape-Dundas, 0, 6.00 KM, 30.00 KM/hr
+		->Pape-Donlands, Pape-Donlands, 0, 6.00 KM, 30.00 KM/hr
+		->Pape-Chester, Pape-Chester, 0, 6.00 KM, 30.00 KM/hr
+ 52 Donlands   0
+		->Donlands-Greenwood, Donlands-Greenwood, 0, 6.00 KM, 30.00 KM/hr
+		->Donlands-Pape, Donlands-Pape, 0, 6.00 KM, 30.00 KM/hr
+ 53 Greenwood   0
+		->Greenwood-Coxwell, Greenwood-Coxwell, 0, 6.00 KM, 30.00 KM/hr
+		->Greenwood-Donlands, Greenwood-Donlands, 0, 6.00 KM, 30.00 KM/hr
+ 54 Coxwell   0
+		->Coxwell-Woodbine, Coxwell-Woodbine, 0, 6.00 KM, 30.00 KM/hr
+		->Coxwell-Greenwood, Coxwell-Greenwood, 0, 6.00 KM, 30.00 KM/hr
+ 55 Woodbine   0
+		->Woodbine-Main Street, Woodbine-Main Street, 0, 6.00 KM, 30.00 KM/hr
+		->Woodbine-Coxwell, Woodbine-Coxwell, 0, 6.00 KM, 30.00 KM/hr
+ 56 Main Street   0
+		->Main Street-Victoria Park, Main Street-Victoria Park, 0, 6.00 KM, 30.00 KM/hr
+		->Main Street-Woodbine, Main Street-Woodbine, 0, 6.00 KM, 30.00 KM/hr
+ 57 Victoria Park   0
+		->Victoria Park-Warden, Victoria Park-Warden, 0, 6.00 KM, 30.00 KM/hr
+		->Victoria Park-Main Street, Victoria Park-Main Street, 0, 6.00 KM, 30.00 KM/hr
+ 58 Warden   0
+		->Warden-Kennedy, Warden-Kennedy, 0, 6.00 KM, 30.00 KM/hr
+		->Warden-Victoria Park, Warden-Victoria Park, 0, 6.00 KM, 30.00 KM/hr
+ 59 Kennedy   0
+		->Kennedy-Warden, Kennedy-Warden, 0, 6.00 KM, 30.00 KM/hr
+
+---------------------------------------------------
+Shortest Path from Greenwood to Finch
+Travel Vertex: Greenwood : Donlands : Pape : Dundas : College : Wellesley : Bloor Yonge : Rosedale : Summerhill : St. Claire : Davisville : Eglinton : Lawrence : York Mills : Sheppard : North York : Finch 
+Take road "Greenwood-Donlands" MAX SPEED: 30.00 and in 6.00 KM
+Take road "Donlands-Pape" MAX SPEED: 30.00 and in 6.00 KM
+Take road "Pape-Dundas" MAX SPEED: 30.00 and in 6.00 KM
+Take road "Dundas-College" MAX SPEED: 30.00 and in 6.00 KM
+Take road "College-Wellesley" MAX SPEED: 30.00 and in 6.00 KM
+Take road "Wellesley-Bloor Yonge" MAX SPEED: 30.00 and in 6.00 KM
+Take road "Bloor Yonge-Rosedale" MAX SPEED: 30.00 and in 6.00 KM
+Take road "Rosedale-Summerhill" MAX SPEED: 30.00 and in 6.00 KM
+Take road "Summerhill-St. Claire" MAX SPEED: 30.00 and in 6.00 KM
+Take road "St. Claire-Davisville" MAX SPEED: 30.00 and in 6.00 KM
+Take road "Davisville-Eglinton" MAX SPEED: 30.00 and in 6.00 KM
+Take road "Eglinton-Lawrence" MAX SPEED: 30.00 and in 6.00 KM
+Take road "Lawrence-York Mills" MAX SPEED: 30.00 and in 6.00 KM
+Take road "York Mills-Sheppard" MAX SPEED: 30.00 and in 6.00 KM
+Take road "Sheppard-North York" MAX SPEED: 30.00 and in 6.00 KM
+Take road "North York-Finch" MAX SPEED: 30.00 and in 6.00 KM destination reached
+Total Time: 3.20 Hr
+---------------------------------------------------
