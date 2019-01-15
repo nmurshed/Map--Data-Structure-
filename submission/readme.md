@@ -1,7 +1,5 @@
 # A Simple Map Functionality : ECE650 Assignment 3
 
-###Group Members : Anson Jacob(20595866), Niyaz Murshed(20641996), Minita Dabhi(20498102)###
-
 This project aims to develop a simple map utility to find shortest path beween
 two places. The shortest path is found by using Dijkstra's algorithm.
 
